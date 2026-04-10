@@ -145,8 +145,38 @@ twoway ///
 
 graph export "figures/density_sim.pdf", replace
 
+* Distribution parameters* 
+gen reject = p < 0.05
+	
+table frac strata, ///
+    statistic(sd tauhat) ///
+    statistic(mean se) ///
+    statistic(mean reject)
 
-* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
