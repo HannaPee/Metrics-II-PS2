@@ -146,10 +146,7 @@ twoway ///
 graph export "figures/density_sim.pdf", replace
 
 
-
-! git add do_file_ps2.do 
-! git commit -m "do_file and figure"
-! git push 
+* 
 
 
 
